@@ -1,0 +1,27 @@
+@mixin Boxshawdow($color) {
+  box-shadow: 0 10px 50px -10px $color;
+}
+
+@mixin SvgColor($color) {
+  path {
+    fill: $color;
+  }
+}
+
+$primary: #8AB3DB;
+$primary1: #7496B8;
+$primary2: #5A748F;
+$primary3: #405366;
+
+$dark: #899BAD;
+$dark1: #636F7A;
+$dark2: #2C3947;
+$dark3: #27323D;
+$dark4: #152433;
+
+$light: #FCFBF9;
+$light1: #E6E4E3;
+
+$boxshawdow: 0 10px 50px -10px $dark;
+
+$background: rgba($dark, 0.4%)
