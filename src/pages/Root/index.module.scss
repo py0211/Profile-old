@@ -1,0 +1,67 @@
+@import '../../styles/color.scss';
+@import '../../styles/font.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+
+  .main {
+    flex: 1;
+    padding: 24px;
+    overscroll-behavior-y: contain;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    .tip {
+      display: flex;
+      flex-direction: column;
+
+      .info {
+        margin-top: 24px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+
+        span {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          font-size: 14px;
+          flex: 1;
+
+          svg {
+            flex: none;
+            width: 24px;
+            height: 24px;
+          }
+
+          a {
+            font-size: 12px;
+            display: contents;
+          }
+        }
+      }
+    }
+
+    .block {
+      padding: 24px 0px;
+      height: unset;
+
+      .blockTitle {
+        display: flex;
+        align-items: center;
+        @include Format('Bold');
+        font-size: 32px;
+        color: $primary_deep;
+        gap: 4px;
+
+        img {
+          flex: none;
+          width: 48px;
+          height: 48px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@import '../../styles/color.scss';
+
+.container {
+  padding: 8px;
+  height: unset;
+  flex: none;
+  display: flex;
+  align-items: center;
+
+  .line {
+    background: $primary;
+    width: 5px;
+    border-radius: 12px;
+    margin-right: 8px;
+    height: 100%;
+    flex: none;
+  }
+}

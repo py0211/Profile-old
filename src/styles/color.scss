@@ -1,27 +1,33 @@
-@mixin Boxshawdow($color) {
-  box-shadow: 0 10px 50px -10px $color;
-}
-
 @mixin SvgColor($color) {
   path {
     fill: $color;
   }
 }
 
-$primary: #8AB3DB;
-$primary1: #7496B8;
-$primary2: #5A748F;
-$primary3: #405366;
+$primary_pale: #FCFBF9;
+$primary_light: #F2F4F4;
+$primary: #E6E4E3;
+$primary_dark: #DAD2D0;
+$primary_deep: #A79A92;
 
-$dark: #899BAD;
-$dark1: #636F7A;
-$dark2: #2C3947;
-$dark3: #27323D;
-$dark4: #152433;
+$red: #C70039;
 
-$light: #FCFBF9;
-$light1: #E6E4E3;
+$yellow_pale: #FCF3CF;
+$yellow_light: #F9E79F;
+$yellow: #FFC300;
 
-$boxshawdow: 0 10px 50px -10px $dark;
+$cyan_pale: #D4E6F1;
+$cyan_light: #A9CCE3;
+$cyan: #7FB3D5;
 
-$background: rgba($dark, 0.4%)
+$blue_pale: #D6EAF8;
+$blue_light: #AED6F1;
+$blue: #8AB3DB;
+$blue_dark: #899BAD;
+
+$grey_pale: #E5E8E8;
+$grey_light: #D0D3D4;
+$grey: #B3B6B7;
+$grey_dark: #707B7C;
+
+$black: #393939;
