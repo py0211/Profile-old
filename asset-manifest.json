@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/profile/static/css/main.e8b57f44.css",
+    "main.js": "/profile/static/js/main.40a675a4.js",
+    "static/js/453.d73b0aaa.chunk.js": "/profile/static/js/453.d73b0aaa.chunk.js",
+    "static/media/NotoSansTC-Light.ttf": "/profile/static/media/NotoSansTC-Light.30ff4ec76f62c272f579.ttf",
+    "static/media/NotoSansTC-ExtraLight.ttf": "/profile/static/media/NotoSansTC-ExtraLight.d7a87dba3f99dc663079.ttf",
+    "static/media/NotoSansTC-Regular.ttf": "/profile/static/media/NotoSansTC-Regular.d85aa51d9a2de01f56b9.ttf",
+    "static/media/NotoSansTC-Thin.ttf": "/profile/static/media/NotoSansTC-Thin.572f540fb482a71cf915.ttf",
+    "static/media/NotoSansTC-Medium.ttf": "/profile/static/media/NotoSansTC-Medium.606e090b80b0b57c843c.ttf",
+    "static/media/NotoSansTC-Bold.ttf": "/profile/static/media/NotoSansTC-Bold.999e82458139273a2cff.ttf",
+    "static/media/NotoSansTC-SemiBold.ttf": "/profile/static/media/NotoSansTC-SemiBold.a0d05dc59774568a9955.ttf",
+    "static/media/NotoSansTC-ExtraBold.ttf": "/profile/static/media/NotoSansTC-ExtraBold.7e708e89b0917c396da9.ttf",
+    "static/media/NotoSansTC-Black.ttf": "/profile/static/media/NotoSansTC-Black.1caf1f58b58fac7317ed.ttf",
+    "index.html": "/profile/index.html",
+    "main.e8b57f44.css.map": "/profile/static/css/main.e8b57f44.css.map",
+    "main.40a675a4.js.map": "/profile/static/js/main.40a675a4.js.map",
+    "453.d73b0aaa.chunk.js.map": "/profile/static/js/453.d73b0aaa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8b57f44.css",
+    "static/js/main.40a675a4.js"
+  ]
+}
